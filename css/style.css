@@ -217,7 +217,7 @@ h6 {
   font-size: 4.3rem;
 }
 .hero .hero-text p {
-  max-width: 90%;
+  max-width: 77%;
 }
 .hero .hero-image {
   background: #dcffca;
@@ -235,13 +235,64 @@ h6 {
   line-height: 1;
   rotate: 90deg;
   position: absolute;
-  left: 350px;
-  width: 40%;
+  top: 0;
+  bottom: 0;
+  left: 35px;
+  display: inline-block;
 }
 .hero .hero-image img {
-  width: 60%;
+  width: 432px;
   margin-top: 50px;
   margin-left: -80px;
+}
+
+@media screen and (max-width: 1399.98px) {
+  .hero .hero-image span {
+    font-size: 10rem;
+    left: -6%;
+  }
+  .hero .hero-image img {
+    width: 350px;
+    margin-left: -60px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .hero .hero-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .hero .hero-text p {
+    max-width: 100%;
+  }
+  .hero .hero-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+  }
+  .hero .hero-image img {
+    margin: 0;
+  }
+  .hero .hero-image span {
+    position: static;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .hero .hero-image {
+    display: block;
+    text-align: center;
+  }
+  .hero .hero-image img {
+    margin: 0 auto;
+    max-width: 70%;
+    display: block;
+  }
+  .hero .hero-image span {
+    rotate: 0deg;
+    font-size: 10rem;
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
