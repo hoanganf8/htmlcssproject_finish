@@ -20,8 +20,27 @@
     background: #dcffca;
     width: 50vw;
     border-radius: 16.667px 0px 0px 16.667px;
-  }
-  [class^="col-"] {
-    padding: 0;
+
+    padding: 55px 0;
+    position: relative;
+    min-height: 708px;
+
+    span {
+      font-size: 15.6rem;
+      color: #216000;
+      font-weight: 800;
+      opacity: 0.15;
+      line-height: 1;
+      rotate: 90deg;
+      position: absolute;
+      left: 350px;
+      width: 40%;
+    }
+
+    img {
+      width: 60%;
+      margin-top: 50px;
+      margin-left: -80px;
+    }
   }
 }

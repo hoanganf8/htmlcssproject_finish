@@ -17,6 +17,7 @@ body {
   color: #2c2c2c;
   line-height: 1.25;
   font-size: 1.6rem;
+  overflow-x: hidden;
 }
 
 a {
@@ -222,9 +223,25 @@ h6 {
   background: #dcffca;
   width: 50vw;
   border-radius: 16.667px 0px 0px 16.667px;
+  padding: 55px 0;
+  position: relative;
+  min-height: 708px;
 }
-.hero [class^=col-] {
-  padding: 0;
+.hero .hero-image span {
+  font-size: 15.6rem;
+  color: #216000;
+  font-weight: 800;
+  opacity: 0.15;
+  line-height: 1;
+  rotate: 90deg;
+  position: absolute;
+  left: 350px;
+  width: 40%;
+}
+.hero .hero-image img {
+  width: 60%;
+  margin-top: 50px;
+  margin-left: -80px;
 }
 
 /*# sourceMappingURL=style.css.map */
