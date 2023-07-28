@@ -1,0 +1,17 @@
+//Import Parts
+@import "parts/variables";
+@import "parts/fonts";
+@import "parts/reset";
+@import "parts/mixin";
+@import "parts/base";
+
+//Import Layouts
+@import "layouts/header";
+@import "layouts/footer";
+
+//Import Pages
+
+//1. Home
+@import "pages/home/hero.scss";
+
+//2. About

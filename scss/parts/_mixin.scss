@@ -1,0 +1,17 @@
+@mixin display($name: "") {
+  $selectorNone: ".d-none";
+  $selectorBlock: ".d-block";
+
+  @if ($name != "") {
+    $selectorNone: ".d-" + $name + "-none"; //.d-md-none
+    $selectorBlock: ".d-" + $name + "-block";
+  }
+
+  #{$selectorNone} {
+    display: none;
+  }
+
+  #{$selectorBlock} {
+    display: block;
+  }
+}

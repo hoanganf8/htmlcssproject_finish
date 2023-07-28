@@ -1,0 +1,11 @@
+.container {
+  --container-width: 1200px;
+}
+
+@include display;
+
+@each $name, $breakpoint in $breakpoints {
+  @media screen and (min-width: #{$breakpoint}px) {
+    @include display($name);
+  }
+}

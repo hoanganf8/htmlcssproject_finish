@@ -1,0 +1,27 @@
+.hero {
+  .hero-text {
+    h1,
+    h2 {
+      font-weight: 800;
+    }
+    h1 {
+      font-size: 3.6rem;
+    }
+
+    h2 {
+      font-size: 4.3rem;
+    }
+
+    p {
+      max-width: 90%;
+    }
+  }
+  .hero-image {
+    background: #dcffca;
+    width: 50vw;
+    border-radius: 16.667px 0px 0px 16.667px;
+  }
+  [class^="col-"] {
+    padding: 0;
+  }
+}
