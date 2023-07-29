@@ -309,6 +309,7 @@ h6 {
   line-height: 1.3;
 }
 .counter .counter-list .counter-item {
+  position: relative;
   background: #fff;
   box-shadow: -5.8333330154px 8.3333330154px 72.5px 0px rgba(54, 54, 54, 0.12);
   padding: 33.33px;
@@ -327,6 +328,19 @@ h6 {
   font-weight: 800;
   font-size: 4.3rem;
 }
+.counter .counter-list [class^=col-]:nth-child(1) .counter-item::before {
+  content: "";
+  display: block;
+  width: 235px;
+  height: 235px;
+  background: #dcffca;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  translate: -50% -50%;
+}
 .counter .counter-list [class^=col-]:nth-child(2) .counter-item {
   padding-top: 60.83px;
   padding-bottom: 60.83px;
@@ -335,6 +349,41 @@ h6 {
 }
 .counter .counter-list [class^=col-]:nth-child(2) .counter-item .counter-icon {
   background: #f2ffec;
+}
+.counter .counter-list [class^=col-]:nth-child(3) .counter-item::after {
+  content: "";
+  display: block;
+  width: 235px;
+  height: 235px;
+  background: #ffd5bd;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  translate: 50% calc(50% + 27px);
+}
+
+@media screen and (max-width: 991.98px) {
+  .counter {
+    padding: 50px 0;
+  }
+  .counter .counter-heading {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .counter .counter-heading h2 br {
+    display: none;
+  }
+  .counter .counter-list .counter-item {
+    max-width: 100% !important;
+    margin-bottom: 20px !important;
+    padding: 33.33px !important;
+    text-align: center;
+  }
+  .counter .counter-list .counter-item::before, .counter .counter-list .counter-item::after {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
