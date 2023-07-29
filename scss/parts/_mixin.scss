@@ -15,3 +15,8 @@
     display: block;
   }
 }
+
+@mixin center($width, $spacer: 0) {
+  max-width: $width;
+  margin: $spacer auto;
+}
