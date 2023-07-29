@@ -110,6 +110,21 @@ h6 {
 .btn.btn-primary {
   background: #46b20f;
 }
+.btn.btn-outline-primary {
+  padding: 11.667px 21.667px;
+  border: 1px solid #46b20f;
+  color: #2c2c2c;
+}
+.btn.btn-outline-primary svg {
+  float: right;
+  margin-top: -2px;
+}
+.btn.btn-outline-primary:hover {
+  background: #46b20f;
+}
+.btn.btn-outline-primary:hover svg path {
+  fill: #fff;
+}
 .btn:hover {
   color: #fff;
 }
@@ -508,6 +523,54 @@ h6 {
   .products .products-list .product-item .add-to-cart .btn {
     font-size: 1.4rem;
   }
+}
+.posts {
+  padding: 64px 0;
+}
+.posts .posts-heading {
+  max-width: 54%;
+  margin: 0 auto;
+  text-align: center;
+}
+.posts .posts-heading h2 {
+  margin: 0;
+  font-size: 3.1rem;
+  font-weight: 800;
+}
+.posts .posts-heading p {
+  margin: 23px 0 28px;
+}
+.posts .posts-list .post-item .image img {
+  border-radius: 6.667px;
+}
+.posts .posts-list .post-item .meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 16.27px 0 18.67px;
+}
+.posts .posts-list .post-item .meta li:first-child a {
+  color: #46b20f;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.posts .posts-list .post-item .meta li:last-child {
+  color: #a3a3a3;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.posts .posts-list .post-item .meta li:last-child svg {
+  float: left;
+  margin-top: -2px;
+  margin-right: 10px;
+}
+.posts .posts-list .post-item .title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 16.27px;
+}
+.posts .posts-more {
+  text-align: center;
+  margin-top: 79px;
 }
 
 /*# sourceMappingURL=style.css.map */

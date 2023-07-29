@@ -20,6 +20,24 @@
     background: $primaryColor;
   }
 
+  &.btn-outline-primary {
+    padding: 11.667px 21.667px;
+    border: 1px solid $primaryColor;
+    color: $textColor;
+    svg {
+      float: right;
+      margin-top: -2px;
+    }
+    &:hover {
+      background: $primaryColor;
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+
   &:hover {
     color: #fff;
   }
