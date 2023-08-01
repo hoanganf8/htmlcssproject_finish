@@ -45,7 +45,6 @@ h4,
 h5,
 h6 {
   color: #2c2c2c;
-  margin: 20px 0;
 }
 
 .d-none {
@@ -596,6 +595,62 @@ h6 {
   .posts .posts-list .post-item .image img {
     width: 100%;
   }
+}
+.feature {
+  padding: 36px 0 116px;
+  position: relative;
+}
+.feature .feature-heading {
+  text-align: center;
+  max-width: 49.8%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.feature .feature-heading h2 {
+  font-weight: 800;
+  font-size: 3.1rem;
+  margin-bottom: 24.33px;
+}
+.feature .feature-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
+.feature .feature-list .feature-item {
+  flex-basis: 28%;
+  max-width: 28%;
+  background: #fff;
+  border-radius: 8.333px;
+}
+.feature .feature-list .feature-item .image {
+  margin-bottom: 24.17px;
+}
+.feature .feature-list .feature-item .image img {
+  display: block;
+  border-radius: 8.333px;
+}
+.feature .feature-list .feature-item .info {
+  padding: 0 18.33px 5px 27.5px;
+}
+.feature .feature-list .feature-item .info h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #ff6916;
+  margin-bottom: 6.33px;
+}
+.feature .feature-list .feature-item .info p {
+  font-size: 1.58rem;
+}
+.feature::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 50%;
+  z-index: -1;
+  background: #fff0e7;
 }
 
 /*# sourceMappingURL=style.css.map */
