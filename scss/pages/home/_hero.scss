@@ -110,3 +110,14 @@
     }
   }
 }
+
+@media screen and (max-width: 575.98px) {
+  .hero {
+    .hero-image {
+      min-height: 560px;
+      span {
+        font-size: 8rem;
+      }
+    }
+  }
+}
