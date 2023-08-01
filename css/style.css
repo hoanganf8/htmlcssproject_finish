@@ -573,4 +573,29 @@ h6 {
   margin-top: 79px;
 }
 
+@media screen and (max-width: 991.98px) {
+  .posts {
+    padding: 30px;
+  }
+  .posts .posts-heading {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .posts {
+    padding: 20px 0;
+  }
+  .posts .posts-list .post-item {
+    margin-bottom: 20px;
+  }
+  .posts .posts-more {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .posts .posts-list .post-item .image img {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
