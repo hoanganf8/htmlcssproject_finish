@@ -18,6 +18,9 @@
   display: inline-block;
   &.btn-primary {
     background: $primaryColor;
+    &:hover {
+      background: $secondaryColor;
+    }
   }
 
   &.btn-outline-primary {
